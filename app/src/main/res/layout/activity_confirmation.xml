@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/background"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    style="@style/Base.ContainerWithoutPadding">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loader"
+        android:layout_centerInParent="true"
+        style="@style/Base.Wrapper"
+        android:visibility="gone"
+        app:indicatorName="BallPulseIndicator" />
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        style="@style/Base.Wrapper"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/result_image"
+            android:layout_gravity="center"
+            style="@style/Base.Wrapper"
+            android:visibility="gone"
+            android:src="@drawable/ic_check_circle_white_80dp"/>
+
+        <TextView
+            android:id="@+id/result_label"
+            android:layout_marginTop="@dimen/medium_margin"
+            style="@style/Base.Wrapper"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/xxxlarge_text"
+            tools:text="Compra realizada con éxito"/>
+
+        <TextView
+            android:id="@+id/result_description"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:visibility="gone"
+            style="@style/Base.Wrapper.FullWidth"
+            android:textColor="@color/white"
+            android:gravity="center"
+            tools:text="Compra realizada con éxito"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">vpos-pagomovil-android</string>
+
+    <string name="amount_hint">Ingrese importe</string>
+    <string name="description_hint">Descripción</string>
+    <string name="transaction_denied">Transacción denegada</string>
+    <string name="transaction_approved">Transacción aprobada</string>
+
+    <string name="invalid_info">Datos inválidos. Por favor corroborar.</string>
+    <string name="payment_error">Error al realizar el pago.</string>
+</resources>
