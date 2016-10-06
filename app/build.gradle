@@ -18,7 +18,7 @@ android {
             buildConfigField "String", "PUBLIC_KEY", '"<PUBLIC KEY PROVIDED BY BANCARD HERE>"'
             buildConfigField "String", "PRIVATE_KEY", '"<PRIVATE KEY PROVIDED BY BANCARD HERE>"'
             buildConfigField "String", "VPOS_URL", '"https://comercios.bancard.com.py/services/vpos/test_case/%s/result"'
-            buildConfigField "String", "WEB_VPOS_URL", '"https://190.128.218.210:8085/payment/single_buy?process_id=%s&from_mobile=true"'
+            buildConfigField "String", "WEB_VPOS_URL", '"https://vpos.infonet.com.py:8888/payment/single_buy?process_id=%s&from_mobile=true"'
             buildConfigField "String", "VPOS_API_URL", '"https://vpos.infonet.com.py:8888/vpos/api/0.3/"'
         }
 
